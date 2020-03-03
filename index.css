@@ -1,0 +1,31 @@
+.box {
+    height: 110px;
+    width: 110px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    }
+.row2{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black
+
+}
+
+.col1{
+    border-right: 4px solid black;
+    border-left: 4px solid black
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
